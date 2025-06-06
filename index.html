@@ -20,26 +20,35 @@
                 <i class="fa-brands fa-instagram"></i>Instagram</a>
             <div class="d-flex align-items-center gap-2">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    create new post
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    data-bs-whatever="@mdo">Create New Post
                 </button>
-
+ 
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Create a New Post</h1>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                ...
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="recipient-name" class="col-form-label">Caption:</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                </form>
+                                <div>
+                                    <i class="fa-solid fa-camera"></i>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                                <button type="button" class="btn btn-success">Publish</button>
                             </div>
                         </div>
                     </div>
@@ -50,9 +59,10 @@
                         <i class="fa-solid fa-gear"></i>
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Action two</a></li>
-                        <li><a class="dropdown-item" href="#">Action three</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                        <li><a class="dropdown-item" href="#">Privacy And Data</a></li>
+                        <li><a class="dropdown-item link-danger border-top" href="#">Log Out</a></li>
                     </ul>
                 </div>
             </div>
@@ -80,61 +90,7 @@
             tabindex="0">
             <div class="container text-center">
                 <div class="row align-items-start">
-                    <div class="col-md-4">
-                        <div class="ratio ratio-1x1">
-                            <div>
-                                <img class="w-100 h-100 object-fit-contain"
-                                    src="https://imgs.search.brave.com/eT29AuEfS7BXUS0ak2R1wIcMNC3Fn1uAZm6NZPGo7sY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2xv/bGVzcG9ydHNfZ2Ft/ZXBlZGlhX2VuL2lt/YWdlcy9jL2MzL0to/YXppeF9jb25jZXB0/XzguanBnL3Jldmlz/aW9uL2xhdGVzdC9z/Y2FsZS10by13aWR0/aC1kb3duLzI1MD9j/Yj0yMDE3MDgwMjAz/MDg1NQ"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="ratio ratio-1x1">
-                            <div>
-                                <img class="w-100 h-100 object-fit-contain"
-                                    src="https://imgs.search.brave.com/eT29AuEfS7BXUS0ak2R1wIcMNC3Fn1uAZm6NZPGo7sY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2xv/bGVzcG9ydHNfZ2Ft/ZXBlZGlhX2VuL2lt/YWdlcy9jL2MzL0to/YXppeF9jb25jZXB0/XzguanBnL3Jldmlz/aW9uL2xhdGVzdC9z/Y2FsZS10by13aWR0/aC1kb3duLzI1MD9j/Yj0yMDE3MDgwMjAz/MDg1NQ"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="ratio ratio-1x1">
-                            <div>
-                                <img class="w-100 h-100 object-fit-contain"
-                                    src="https://imgs.search.brave.com/eT29AuEfS7BXUS0ak2R1wIcMNC3Fn1uAZm6NZPGo7sY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2xv/bGVzcG9ydHNfZ2Ft/ZXBlZGlhX2VuL2lt/YWdlcy9jL2MzL0to/YXppeF9jb25jZXB0/XzguanBnL3Jldmlz/aW9uL2xhdGVzdC9z/Y2FsZS10by13aWR0/aC1kb3duLzI1MD9j/Yj0yMDE3MDgwMjAz/MDg1NQ"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="ratio ratio-1x1">
-                            <div>
-                                <img class="w-100 h-100 object-fit-contain"
-                                    src="https://imgs.search.brave.com/eT29AuEfS7BXUS0ak2R1wIcMNC3Fn1uAZm6NZPGo7sY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2xv/bGVzcG9ydHNfZ2Ft/ZXBlZGlhX2VuL2lt/YWdlcy9jL2MzL0to/YXppeF9jb25jZXB0/XzguanBnL3Jldmlz/aW9uL2xhdGVzdC9z/Y2FsZS10by13aWR0/aC1kb3duLzI1MD9j/Yj0yMDE3MDgwMjAz/MDg1NQ"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="ratio ratio-1x1">
-                            <div>
-                                <img class="w-100 h-100 object-fit-contain"
-                                    src="https://imgs.search.brave.com/eT29AuEfS7BXUS0ak2R1wIcMNC3Fn1uAZm6NZPGo7sY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2xv/bGVzcG9ydHNfZ2Ft/ZXBlZGlhX2VuL2lt/YWdlcy9jL2MzL0to/YXppeF9jb25jZXB0/XzguanBnL3Jldmlz/aW9uL2xhdGVzdC9z/Y2FsZS10by13aWR0/aC1kb3duLzI1MD9j/Yj0yMDE3MDgwMjAz/MDg1NQ"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="ratio ratio-1x1">
-                            <div>
-                                <img class="w-100 h-100 object-fit-contain"
-                                    src="https://imgs.search.brave.com/eT29AuEfS7BXUS0ak2R1wIcMNC3Fn1uAZm6NZPGo7sY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2xv/bGVzcG9ydHNfZ2Ft/ZXBlZGlhX2VuL2lt/YWdlcy9jL2MzL0to/YXppeF9jb25jZXB0/XzguanBnL3Jldmlz/aW9uL2xhdGVzdC9z/Y2FsZS10by13aWR0/aC1kb3duLzI1MD9j/Yj0yMDE3MDgwMjAz/MDg1NQ"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-4">
                         <div class="ratio ratio-1x1">
                             <div>
                                 <img class="w-100 h-100 object-fit-cover"
@@ -143,19 +99,73 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-4">
                         <div class="ratio ratio-1x1">
                             <div>
                                 <img class="w-100 h-100 object-fit-cover"
-                                    src="https://imgs.search.brave.com/eT29AuEfS7BXUS0ak2R1wIcMNC3Fn1uAZm6NZPGo7sY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L2xv/bGVzcG9ydHNfZ2Ft/ZXBlZGlhX2VuL2lt/YWdlcy9jL2MzL0to/YXppeF9jb25jZXB0/XzguanBnL3Jldmlz/aW9uL2xhdGVzdC9z/Y2FsZS10by13aWR0/aC1kb3duLzI1MD9j/Yj0yMDE3MDgwMjAz/MDg1NQ"
+                                    src="https://imgs.search.brave.com/1vUPEDyOyulRKHpyOSNu5CD36Xxu9Uu8qrx-4H9_ebQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbTEu/YW1pbm9hcHBzLmNv/bS83MDM2LzMyOGU0/MmE3ZmI0Yjc1NzEy/ODYwOThlZmVlMGNl/YjZlNDBkZDU1ZDRy/MS0yMDQ4LTE3NTl2/Ml9ocS5qcGc"
                                     alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4  mb-4">
+                        <div class="ratio ratio-1x1">
+                            <div>
+                                <img class="w-100 h-100 object-fit-cover"
+                                    src="https://imgs.search.brave.com/wgbx2rLyRT6s6QHhCd1To1HlmqfaT9j5oPoZaRDs0Uo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDk2MDEy/NzIuanBn"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="ratio ratio-1x1">
+                            <div>
+                                <img class="w-100 h-100 object-fit-cover"
+                                    src="https://imgs.search.brave.com/2FxzkAMD-tcleIqXkqK8Aeqn7V_PQL_1JGU_2ePZaOk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kZHJh/Z29uLmxlYWd1ZW9m/bGVnZW5kcy5jb20v/Y2RuL2ltZy9jaGFt/cGlvbi9zcGxhc2gv/TW9yZGVrYWlzZXJf/MzIuanBn"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="ratio ratio-1x1">
+                            <div>
+                                <img class="w-100 h-100 object-fit-cover"
+                                    src="https://imgs.search.brave.com/dZz2-NITZI2OS1RRPqg2RchmG647iWtXjJc0QQ7OOlI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nZXR3/YWxscGFwZXJzLmNv/bS93YWxscGFwZXIv/ZnVsbC8yLzEvNy84/NzE2NjEtbW9zdC1w/b3B1bGFyLWRhcml1/cy13YWxscGFwZXJz/LTE5MjB4MTA4MC13/aW5kb3dzLmpwZw"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="ratio ratio-1x1">
+                            <div>
+                                <img class="w-100 h-100 object-fit-cover"
+                                    src="https://imgs.search.brave.com/ZL0uXinVyiJPZi0V4JJigV_vvLWyi5xiQLE-LWepVR0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXM3LmFscGhhY29k/ZXJzLmNvbS8zOTYv/dGh1bWJiaWctMzk2/NzQ5LndlYnA"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="ratio ratio-1x1">
+                            <div>
+                                <img class="w-100 h-100 object-fit-cover"
+                                    src="https://imgs.search.brave.com/OqtGwi8FCMvxqlKATzZptgHCFq1hcDCm4xTYiOxjUj8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvNjA4/OTE0Mi5qcGc"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4  mb-4">
+                        <div class="ratio ratio-1x1">
+                            <div>
+                                <img class="w-100 h-100 object-fit-cover"
+                                    src="https://imgs.search.brave.com/PQuI-OktXFlrrmQDKIP-mp4LI8SUgc8hpDTdq__jCf4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/dWhkcGFwZXIuY29t/L3dhbGxwYXBlci92/YXluZS1wcm9qZWN0/LXVuYm91bmQtc2tp/bi1sb2wtc3BsYXNo/LWFydC0yNEA1QGU"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
                         <div class="ratio ratio-1x1">
                             <img class="object-fit-cover"
-                                src="https://imgs.search.brave.com/s54DJFhoIBXQsSTjhBXbeh8Ja8FzkpMYlJcdr0CVNPI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzA4LzFh/LzVjLzA4MWE1Yzhm/ZGQzNTI2MjkwMDY2/NmE4ODc3ZDQzMzFi/LmpwZw"
+                                src="https://imgs.search.brave.com/i7lHCTNuVPMb2YQsB5RxPNcwspBrmVzkItgbxb8S9P4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9kZHJh/Z29uLmxlYWd1ZW9m/bGVnZW5kcy5jb20v/Y2RuL2ltZy9jaGFt/cGlvbi9zcGxhc2gv/U2thcm5lcl8zLmpw/Zw"
                                 alt="">
                             <div>
                             </div>
